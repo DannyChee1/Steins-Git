@@ -72,24 +72,10 @@ worldline transmit -u origin main         # git push -u origin main
 |---------|---------------|-------------|
 | `worldline phonewave` | `git worktree` | Interactive worktree management |
 
-## Divergence Meter
-
-The divergence number (e.g., `1.048596`) is **deterministic** — it's computed from your repo state:
-
-- Merge-base relationship with default branch
-- Commits ahead/behind
-- Dirty working tree
-- Stash count
-- Detached HEAD status
-
 ## Requirements
 
 - Node.js >= 20
 - Git installed and on PATH
-
-## License
-
-MIT
 
 ---
 
